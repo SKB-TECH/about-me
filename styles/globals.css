@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/*@font-face {*/
-/*    font-family: "Baba";*/
-/*    src: url("../..");*/
-/*}*/
+@font-face {
+    font-family:"Second-bold";
+    src: url('../public/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family:"Second-regular";
+    src: url('../public/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family:"Poppins-bold";
+    src: url('../public/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family:"Poppins-regular";
+    src: url('../public/fonts/Poppins-Regular.ttf');
+}
 
 .dropdown1 {
     visibility: hidden;
@@ -44,9 +59,6 @@
     border-style: none;
     font-size: 14px !important;
 }
-
-
-
 
 .drop1 .dropdown1 .dropdown1-items a { transition: all 0.5s ease; }
 .dropdown1{

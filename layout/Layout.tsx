@@ -7,7 +7,7 @@ const Layout = ({children}: PropsWithChildren) => {
             <header>
                 <Navbar/>
             </header>
-            <main className={'max-w-screen mt-16'}>
+            <main className={'max-w-screen mt-16 mb-12'}>
                 {
                     children
                 }

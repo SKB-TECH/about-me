@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
-import logo from "../public/ben.png";
+import {CgDarkMode} from 'react-icons/cg'
+import logo from "../public/gru.png";
 import Image from "next/image";
 import Link from "next/link";
 import {MdOutlineDarkMode} from "react-icons/md";
@@ -24,7 +25,7 @@ const Navbar = () => {
         };
     }, []);
     return (
-        <section className={`fixed font-p_medium  w-full h-16  top-0 left-0 right-0 ${
+        <section className={`fixed font-primaryr  w-full h-16  top-0 left-0 right-0 ${
         isScroll && "z-[100]  shadow-lg  bg-white text-blue_principe"
     }`}>
 
@@ -33,64 +34,36 @@ const Navbar = () => {
                     <Image
                         src={logo}
                         alt='Picture of the author'
-                        width={80}
-                        height={80}
+                        width={160}
+                        height={100}
                     />
                 </div>
                 <div className={'md:flex text-1xl ml-44 lg:mr-20'}>
-                    <ul className={`items-center justify-around hidden cursor-pointer ${isScroll && 'text-blue_principe'} md:flex gap-10`}>
-                        <Link href='/' className='flex flex-col '>
-                            <li className='text-lg  font-poppins hover:text-blue_ciel'>
+                    <ul className={`items-center  justify-around hidden cursor-pointer ${isScroll && 'text-nav'} md:flex gap-10`}>
+                        <Link href='/' className='flex flex-col transition hover:text-blues'>
+                            <li className='text-lg  hover:text-blue_ciel'>
                                 Home
                             </li>
                         </Link>
-                        <Link href='/' className='flex flex-col '>
-                            <li className='text-lg  font-poppins hover:text-blue_ciel'>
+                        <Link href='/' className='flex flex-col transition hover:text-blues'>
+                            <li className='text-lg hover:text-blue_ciel'>
                                 About
                             </li>
                         </Link>
-                        <div className={`drop1 ${isScroll ? "linkItem-light" : "linkItem"}`}>
-                            Projects
-                            <div className={`dropdown1 w-60 h-28`}>
-                                <div className={'container'}>
-                                    <div className={`row-auto`}>
-                                        <div className={`dropdown1-items`}>
-                                            <Link href='/' className={`linkItem-light2 text-lg`}>
-                                                <li className='hover:text-blue_ciel'>
-                                                    Web projects
-                                                </li>
-                                            </Link>
-                                        </div>
-                                        <div className={`dropdown1-items`}>
-                                            <Link href='/' className={`linkItem-light2 text-lg`}>
-                                                <li className='hover:text-blue_ciel'>
-                                                    Mobile projects
-                                                </li>
-                                            </Link>
-                                        </div>
-                                        <div className={`dropdown1-items`}>
-                                            <Link href='/' className={`linkItem-light2 text-lg`}>
-                                                <li className='hover:text-blue_ciel'>
-                                                    UIX Projects
-                                                </li>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <Link href='/' className='text-lg'>
-                            <li className='hover:text-blue_ciel'>Experiences</li>
+                        <Link href='/' className='flex flex-col transition hover:text-blues'>
+                            <li className='text-lg  hover:text-blue_ciel'>
+                                Resume
+                            </li>
                         </Link>
-                        <Link href='/' className='text-lg'>
+                        <Link href='/' className='text-lg transition hover:text-blues'>
                             <li className='hover:text-blue_ciel'>Contact</li>
                         </Link>
                     </ul>
                 </div>
-                <div className={'hidden lg:flex flex-row lg:mr-10'}>
-                    <ul className='flex justify-center items-center font-p_medium gap-5'>
-                        <Link href='/' className={'flex text-lg flex-row gap-1 items-center'}>
-                            <MdOutlineDarkMode size={25} />
+                <div className={'hidden lg:flex flex-row lg:mr-10 '}>
+                    <ul className='flex justify-center items-center' id={'dark'}>
+                        <Link href='/' className={'flex text-lg flex-row gap-1 items-center m-1 p-1 transition hover:text-blues'}>
+                            <CgDarkMode size={25} />
                         </Link>
                     </ul>
                 </div>

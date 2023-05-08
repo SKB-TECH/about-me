@@ -64,3 +64,43 @@
 .dropdown1{
     display: flex;
 }
+
+#neum{
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow:  -8px 8px 16px #999999,
+    8px -8px 16px #ffffff;
+}
+
+#neumd{
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow:  8px 8px 16px #999999,
+    -8px -8px 16px #ffffff;
+}
+
+#dark{
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow:  7px 7px 18px #737373,
+    -7px -7px 18px #ffffff;
+}
+
+#cv{
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow:  -8px 8px 16px #999999,
+    8px -8px 16px #ffffff;
+}
+#button{
+    border-radius: 35px;
+    background: linear-gradient(45deg, #5159d3, #606afa);
+    box-shadow:  5px -5px 10px #4d55c9,
+    -5px 5px 10px #6771ff;
+}
+
+#res{
+    background: #606afa;
+    box-shadow:  6px -6px 7px #545cda,
+    -6px 6px 7px #606afa;
+}

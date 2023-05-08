@@ -17,7 +17,7 @@ const Bannier =() => {
             </div>
             <div className={'flex flex-col gap-10 min-h-full lg:w-[45%] '}>
                 <div className={'flex flex-col gap-5 lg:h-[95%] w-[100%] lg:p-10  p-2 text-justify  '} id={'neum'}>
-                    <h2 className={'lg:text-left  font-secondaireb text-black text-2xl'}><span>&#128075;</span>Hi I'm <span className={'text-blues'}>Benjamin</span> Shako Kinyamba</h2>
+                    <h2 className={'lg:text-left  font-secondaireb text-black text-2xl'}>Hi I'm <span className={'text-blues'}>Benjamin</span> Shako Kinyamba</h2>
                     <h2 className={'text-blues font-secondaireb text-2xl'}>
                         <Typewriter
                             options={{

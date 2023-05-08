@@ -11,7 +11,7 @@ import Typewriter from 'typewriter-effect'
 
 const Bannier =() => {
     return (
-        <section className={'flex flex-col lg:h-[60rem] lg:flex-row justify-between items-center gap-10 lg:p-10 p-5 lg:mt-20 mt-20'}>
+        <section className={'flex flex-col lg:h-[60rem] lg:flex-row justify-between items-center gap-10 lg:p-10 p-5 lg:mt-20 mt-20'} id={'home'}>
             <div className={'lg:hidden flex flex-col lg:min-h-full h-96 p-2  items-center  gap-5 lg:w-[55%] w-[100%] lg:p-2'} id={'neumd'}>
                 <Image src={bens} alt={'ben'}  className={'rounded-lg lg:w-[98%] h-[98%]'}/>
             </div>

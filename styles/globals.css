@@ -104,3 +104,9 @@
     box-shadow:  6px -6px 7px #545cda,
     -6px 6px 7px #606afa;
 }
+#addresse{
+    border-radius: 24px;
+    background: linear-gradient(45deg, #e6e6e6, #ffffff);
+    box-shadow:  8px -8px 18px #ededed,
+    -8px 8px 18px #ffffff;
+}

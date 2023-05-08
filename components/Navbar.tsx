@@ -45,28 +45,23 @@ const Navbar = () => {
                                 Home
                             </li>
                         </Link>
-                        <Link href='/' className='flex flex-col transition hover:text-blues'>
-                            <li className='text-lg hover:text-blue_ciel'>
-                                About
-                            </li>
-                        </Link>
-                        <Link href='/' className='flex flex-col transition hover:text-blues'>
+                        <Link href='#resume' className='flex flex-col transition hover:text-blues'>
                             <li className='text-lg  hover:text-blue_ciel'>
                                 Resume
                             </li>
                         </Link>
-                        <Link href='/' className='text-lg transition hover:text-blues'>
-                            <li className='hover:text-blue_ciel'>Contact</li>
+                        <Link href='/inspiration' className='text-lg transition hover:text-blues'>
+                            <li className='hover:text-blue_ciel'>Inspiration</li>
                         </Link>
                     </ul>
                 </div>
-                <div className={'hidden lg:flex flex-row lg:mr-10 '}>
-                    <ul className='flex justify-center items-center' id={'dark'}>
-                        <Link href='/' className={'flex text-lg flex-row gap-1 items-center m-1 p-1 transition hover:text-blues'}>
-                            <CgDarkMode size={25} />
-                        </Link>
-                    </ul>
-                </div>
+                {/*<div className={'hidden lg:flex flex-row lg:mr-10 '}>*/}
+                {/*    <ul className='flex justify-center items-center' id={'dark'}>*/}
+                {/*        <Link href='/' className={'flex text-lg flex-row gap-1 items-center m-1 p-1 transition hover:text-blues'}>*/}
+                {/*            <CgDarkMode size={25} />*/}
+                {/*        </Link>*/}
+                {/*    </ul>*/}
+                {/*</div>*/}
                 <div className='cursor-pointer z-1000 md:hidden' onClick={handlClic}>
                     <AiOutlineMenu size={30} />
                 </div>
@@ -95,31 +90,35 @@ const Navbar = () => {
                                 <AiOutlineClose />
                             </div>
                         </div>
-                        <div className='my-4 border-b border-gray-300'>
-                            <p className='w-[85%] md:w-[90%] py-4 mx-auto '>
-                                Que voulez-vous faire ?
-                            </p>
-                        </div>
+                        {/*<div className='my-4 border-b border-gray-300'>*/}
+                        {/*    <p className='w-[85%] md:w-[90%] py-4 mx-auto '>*/}
+                        {/*        */}
+                        {/*    </p>*/}
+                        {/*</div>*/}
                         <div className={`flex font-p_medium flex-col py-4 gap-10 cursor-pointer  ${isScroll && 'text-blue_principe'}`}>
-                            <ul className='uppercase flex flex-col'>
-                                <Link href='/' className='text-lg'>
-                                    <li className='hover:text-blue_ciel '>Home</li>
+                            <ul className='uppercase flex flex-col justify-around gap-5 mt-5'>
+                                <Link href='/' className='flex flex-col transition hover:text-blues'>
+                                    <li className='text-lg  hover:text-blue_ciel'>
+                                        Home
+                                    </li>
                                 </Link>
-                                <Link href='/' className='text-lg'>
-                                    <li className='hover:text-blue_ciel '>About</li>
+                                <hr className={'text-blues'}></hr>
+                                <Link href='#resume' className='flex flex-col transition hover:text-blues'>
+                                    <li className='text-lg  hover:text-blue_ciel'>
+                                        Resume
+                                    </li>
                                 </Link>
-                                <Link href='/' className='text-lg'>
-                                    <li className='hover:text-blue_ciel '>School</li>
+                                <hr className={'text-blues'}></hr>
+                                <Link href='/inspiration' className='text-lg transition hover:text-blues'>
+                                    <li className='hover:text-blue_ciel'>Inspiration</li>
                                 </Link>
-                                <Link href='/' className='text-lg'>
-                                    <li className='hover:text-blue_ciel '>Contact</li>
-                                </Link>
+                                <hr className={'text-blues'}></hr>
                             </ul>
-                            <div className='pt-10 flex flex-col font-p_medium'>
-                                <Link href='/' className={'flex text-lg flex-row gap-1 items-center'}>
-                                    <MdOutlineDarkMode size={25} />
-                                </Link>
-                            </div>
+                            {/*<div className='pt-10 flex flex-col font-p_medium'>*/}
+                            {/*    <Link href='/' className={'flex text-lg flex-row gap-1 items-center'}>*/}
+                            {/*        <MdOutlineDarkMode size={25} />*/}
+                            {/*    </Link>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </div>

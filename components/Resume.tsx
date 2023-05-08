@@ -13,7 +13,7 @@ const Resume = () => {
     }
     // @ts-ignore
     return (
-        <section className={'flex flex-col justify-around items-center min-w-full min-h-full lg:mt-20 gap-5'}>
+        <section className={'flex flex-col justify-around items-center min-w-full min-h-full lg:mt-20 gap-5'} id={'resume'}>
             <p className={'text-blues font-primaryr '}> +4 YEARS OF EXPERIENCE</p>
             <h2 className={'text-blues font-secondaireb lg:text-4xl text-2xl '}>My Resume</h2>
             <div className={'flex flex-row w-[90%] h-20'}>

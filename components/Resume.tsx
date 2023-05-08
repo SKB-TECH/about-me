@@ -1,5 +1,4 @@
 import React ,{useState}from 'react';
-import PropTypes from 'prop-types';
 import {Button, Progress} from "antd";
 import Link from "next/link";
 import Skill from "@/components/Skill";

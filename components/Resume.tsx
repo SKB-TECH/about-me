@@ -17,12 +17,12 @@ const Resume = () => {
             <h2 className={'text-blues font-secondaireb lg:text-4xl text-2xl '}>My Resume</h2>
             <div className={'flex flex-row w-[90%] h-20'}>
                 <div className={'w-[50%] h-10'} id={'neum'}>
-                    <Button className={'w-[100%] h-[100%] lg:text-2xl  text-white font-bold transform bg-rose hover:bg-blues'} onClick={handlClick}>
+                    <Button className={'w-[100%] h-[100%] lg:text-2xl  text-white font-bold transform bg-blues'} onClick={handlClick}>
                         Experience
                     </Button>
                 </div>
                 <div className={'w-[50%] h-10'} id={'neumd'}>
-                    <Button className={'w-[100%] h-[100%] lg:text-2xl  text-white font-bold transform bg-rose hover:bg-blues'} onClick={handlClick}>
+                    <Button className={'w-[100%]  h-[100%] lg:text-2xl  text-white font-bold transform bg-blues '} onClick={handlClick}>
                         Skills</Button>
                 </div>
             </div>

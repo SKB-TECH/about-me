@@ -69,15 +69,15 @@
 #neum{
     border-radius: 16px;
     background: #ffffff;
-    box-shadow:  -8px 8px 16px #999999,
-    8px -8px 16px #ffffff;
+    box-shadow:  -4px 4px 6px #999999,
+    4px -4px 6px #ffffff;
 }
 
 #neumd{
     border-radius: 16px;
     background: #ffffff;
-    box-shadow:  8px 8px 16px #999999,
-    -8px -8px 16px #ffffff;
+    box-shadow:  4px 4px 6px #999999,
+    -4px -4px 6px #ffffff;
 }
 
 #dark{
@@ -90,14 +90,13 @@
 #cv{
     border-radius: 16px;
     background: #ffffff;
-    box-shadow:  -8px 8px 16px #999999,
-    8px -8px 16px #ffffff;
+    box-shadow:  -4px 4px 6px #999999,
+    4px -4px 6px #ffffff;
 }
 #button{
     border-radius: 35px;
     background: linear-gradient(45deg, #5159d3, #606afa);
-    box-shadow:  5px -5px 10px #4d55c9,
-    -5px 5px 10px #6771ff;
+   
 }
 
 #res{
